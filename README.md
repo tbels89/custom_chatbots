@@ -5,7 +5,9 @@
 
 2. Add your data as .txt files to the data folder
 
-3. Select your application and run. 
+3. Select your application and install dependencies as required 
+
+4. Run application from your code editor and start chatting
 
 <h2>Applications: </h2>
 
