@@ -48,7 +48,7 @@ def chatbot(input, history):
 with gr.Blocks() as block:
     gr.Markdown("""<h1><center>Custom Knowledge Chatbot</center></h1>""")
     chatbots = gr.Chatbot()
-    message = gr.Textbox(lines=1, max_lines=1, placeholder="Enter your message here.", label="User input") #maxlines as 1 allows submit with enter. another way around?
+    message = gr.Textbox(lines=1, max_lines=1, placeholder="Enter your message here.", label="User input")
     state = gr.State()
     submit = gr.Button("Click to submit")
     submit.click(chatbot, inputs=[message, state], outputs=[chatbots, state])
