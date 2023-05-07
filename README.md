@@ -1,9 +1,11 @@
 # custom_chatbots
 <h2>Query documents for data and custom knowledge chatbot with langchain</h2>
 
-<h3>Download the repository
-Add your data as .txt files to the data folder
-Select your application and run.</h3>
+1. Download the repository
+
+2. Add your data as .txt files to the data folder
+
+3. Select your application and run. 
 
 <h2>Applications: </h2>
 
